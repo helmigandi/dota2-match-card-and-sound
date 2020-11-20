@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    /* width: 100%; */
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.35);
+    /* width: 100px;
+    height: 100px; */
+    width: 150px;
+  }
+
+  .card img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .card input {
+    width: 100%;
+    height: 100%;
+}
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  td {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: medium;
+  }
+
+  .card button {
+    background:url(./images/Invoker_icon.png) no-repeat;
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}

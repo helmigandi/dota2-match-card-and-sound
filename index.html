@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="tableList">
+        <table>
+            <tr>
+                <td>
+                    <div class="card" id="Invoker_icon">
+                        <input type="image" src="/images/Invoker_icon.png"
+                            onclick="bandingSoundHeroInvoker(randomIndex, arrHero)" />
+                        <!-- <img src="/images/Legion_Commander_icon.png" alt="Avatar"> -->
+                        <div class="container">
+                            <h4><b>Invoker</b></h4>
+                        </div>
+                    </div>
+                    <button type="button" onclick="bandingSoundHero(randomIndex, arrHero)">invoker</button>
+                </td>
+                <td>
+                    <div class="card" id="Bounty_Hunter_icon">
+                        <input type="image" src="/images/Bounty_Hunter_icon.png"
+                        onclick="bandingSoundHeroBounty(randomIndex, arrHero)" />
+                        <!-- <img src="/images/Legion_Commander_icon.png" alt="Avatar"> -->
+                        <div class="container">
+                            <h4><b>Bounty Hunter</b></h4>
+                        </div>
+                    </div>
+                    <button id="Bounty_Hunter_icon" type="button">Bounty Hunter</button>
+                </td>
+                <td>
+                    <div class="card" id="Legion_Commander_icon">
+                        <input type="image" src="/images/Legion_Commander_icon.png"
+                        onclick="bandingSoundHeroLegion(randomIndex, arrHero)" />
+                        <!-- <img src="/images/Invoker_icon.png" alt="Avatar"> -->
+                        <div class="container">
+                            <h4><b>Legion Commander</b></h4>
+                        </div>
+                    </div>
+                    <button id="Legion_Commander_icon" type="button">lc</button>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="card" id="Mirana_icon">
+                        <input type="image" src="/images/Mirana_icon.png"
+                        onclick="bandingSoundHeroMirana(randomIndex, arrHero)" />
+                        <div class="container">
+                            <h4><b>Mirana</b></h4>
+                        </div>
+                    </div>
+                    <button id="Mirana_icon" type="button">Mirana</button>
+                </td>
+                <td>
+                    <div class="card" id="Sand_King_icon">
+                        <input type="image" src="/images/Sand_King_icon.png"
+                        onclick="bandingSoundHeroSand(randomIndex, arrHero)" />
+                        <div class="container">
+                            <h4><b>Sand King</b></h4>
+                        </div>
+                    </div>
+                    <button id="Sand_King_icon" type="button">SK</button>
+
+                </td>
+                <td>
+                    <div class="card" id="Sniper_icon">
+                        <input type="image" src="/images/Sniper_icon.png"
+                        onclick="bandingSoundHeroSniper(randomIndex, arrHero)" />                        <div class="container">
+                            <h4><b>Sniper</b></h4>
+                        </div>
+                    </div>
+                    <button id="Sniper_Icon" type="button">Sniper</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-- 
+    <audio id="myAudio" src="/assets/Legion_Commander_icon.mp3"> -->
+    <!-- <source src="/assets/Legion_Commander_icon.mp3" type="audio/mpeg"> -->
+    <!-- Your browser does not support the audio element.
+    </audio>
+    <button onclick="playAudio()" type="button">Play Audio</button> -->
+
+    <!-- <p id="lc">TEST</p>
+    <p id="sk">TEST</p>
+    <p id="invoker">TEST</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <button type="button" onclick="srcTest()">SRC</button>
+    <p id="testSrc">SRC disini</p>
+
+    <button type="button" onclick="play1()">Sound from JS1</button>
+
+    <audio id="changeAudio" src="/assets/Legion_Commander_icon.mp3"> -->
+    <!-- <source src="/assets/Legion_Commander_icon.mp3" type="audio/mpeg"> -->
+    <!-- Your browser does not support the audio element.
+    </audio>
+    <button type="button" onclick="changeAudio()">Change Audio from JS &#9658</button> -->
+
+
+
+
+    <!-- Test array -->
+    <audio id="arrayAudio" src="/assets/Legion_Commander_icon.mp3">
+        <!-- <source src="/assets/Legion_Commander_icon.mp3" type="audio/mpeg"> -->
+        Your browser does not support the audio element.
+    </audio>
+    <button type="button" onclick="arrPlayAudio(arrHero, arrayBaru)">Test for Array JS</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
