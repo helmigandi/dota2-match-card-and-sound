@@ -72,7 +72,7 @@ function arrPlayAudio(arrHero, arrayBaru) {
     console.log('Suaranya: ' + arrHero[indexTerambil]);
 
     const heroSound = arrHero[indexTerambil];
-    document.getElementById("arrayAudio").src = `/assets/${heroSound}.mp3`;
+    document.getElementById("arrayAudio").src = `../assets/${heroSound}.mp3`;
     document.getElementById("arrayAudio").load();
     document.getElementById("arrayAudio").play();
     return randomIndex;
